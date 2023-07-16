@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Score IS ?</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
+    <div class="main">
+        <label for="input">Input Your Score</label>
+        <span>X</span>
+        <input type="number" name="Score" id="Score" value="0">
+        <button>Calculate</button>
+        <div class="result">
+            <p>Your Grade is :</p>
+            <p id="res">x</p>
+        </div>
 
+    </div>
 
     <script src="./main.js"></script>
 </body>
